@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use App\Services\ApiClient;
 
 class CardList extends Component
 {
