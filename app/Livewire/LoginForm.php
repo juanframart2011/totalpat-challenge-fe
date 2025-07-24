@@ -25,7 +25,7 @@ class LoginForm extends Component
 
         session([
             'api_token' => $response['token'],
-            'user'      => $response['user'],
+            'user'      => $response['user']
         ]);
 
         return redirect()->route('cards.list');
